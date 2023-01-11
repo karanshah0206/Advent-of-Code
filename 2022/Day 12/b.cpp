@@ -34,7 +34,7 @@ vector<coord> getChildren(const coord& c) {
   return res;
 }
 
-size_t bfs() {
+int bfs() {
   map<coord, coord> childToParent;
   childToParent.insert({endCoord, endCoord});
 
